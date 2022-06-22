@@ -32,7 +32,7 @@ def main():
     print(f"Finding the factors of {number}...")
     for num in range(1, number):
         if is_factor(number, num):
-            print("{num}, ", end="")
+            print(f"{num}, ", end="")
     print()
     
 
